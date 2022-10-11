@@ -1,5 +1,5 @@
 """
-4. String Template
+4. String Template (od Pythonu 2)
 """
 
 from string import Template

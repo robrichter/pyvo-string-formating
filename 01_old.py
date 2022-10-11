@@ -1,5 +1,5 @@
 """
-1. starý způsob pomocí operátoru %
+1. starý způsob pomocí operátoru % (od Pythonu 2)
 """
 
 """

@@ -18,4 +18,4 @@ string = "My name is {name}, I am {age:d} and {height:.2f} feet tall".format(
     height=4.3333
 )
 
-print(string)
+
