@@ -34,8 +34,8 @@ print("My name is {0[name]} and I am {0[age]}".format(filomena))
 
 print("{0:>+10}".format(15))
 print("{0:<+10}".format(15))
-print("{0:=+10}".format(15))
-print("{0:#^10}".format(15))
+print(f"{15:=+10}")
+print(f"{15:#^10}")
 
 
 """
