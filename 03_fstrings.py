@@ -17,10 +17,15 @@ print(f'My name is {{name}} and I am {age}')
 # print(f"My name is {"Bob"} and I am {33}")
 # print(f'My name is {'Bob'} and I am {33}')
 
-
+"""
+3.1 Použití výrazu jako parametru - lze použít nejen v fstrings, i v předešlých způsobech
+"""
 print("\n\nPoužití výrazu jako parametru")
+
+
 def get_random_age():
     return randint(1, 100)
+
 
 print('My name is %s and I am %s' % ("Poo", get_random_age()))
 print('My name is {} and I am {}'.format("Poo", get_random_age()))
@@ -28,11 +33,13 @@ print(f'My name is {"Poo"} and I am {get_random_age()}')
 
 
 '''
-F Stringy - operátor =, od Pythonu 3.8
+3.2 F Stringy - operátor =, od Pythonu 3.8
 '''
+print("\n\nPouziti operator = pro doplneni nazvu promennych")
+
 age = 44
 height = 180
 weight = 80
-print(f"age={age} height={height} weight={weight}")
-print(f"{age=} {height=} {weight=}")
+print(f"age={age} height={height} weight={weight}")  # zde si jmena promennych vypisu rucne
+print(f"{age=} {height=} {weight=}")  # operator = za me jmena promennych doplni automaticky
 
