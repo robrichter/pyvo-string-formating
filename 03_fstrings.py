@@ -32,6 +32,10 @@ print('My name is {} and I am {}'.format("Poo", get_random_age()))
 print(f'My name is {"Poo"} and I am {get_random_age()}')
 
 
+names = ['Franta', 'Pepa', 'Jednicka']
+print(f"list: {[n.upper() for n in names]}, length: {len(names)}")
+
+
 '''
 3.2 F Stringy - operátor =, od Pythonu 3.8
 '''
