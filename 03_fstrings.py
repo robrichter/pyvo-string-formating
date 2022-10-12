@@ -3,14 +3,15 @@
 """
 from random import randint
 
-string = f"My name is {'Bob'} and I am {33}"
+name, age = ('Bob', 33)
+string = f"My name is {name} and I am {age}"
 print(string)
 
-print(f'My name is {"Bob"} and I am {33}')
-print(f'''My name is {"Bob"} and I am {33}''')
-print(f"""My name is {"Bob"} and I am {33}""")
+print(f'My name is {name} and I am {age}')
+print(f'''My name is {name} and I am {age}''')
+print(f"""My name is {name} and I am {age}""")
 
-print(f'My name is {{Bob}} and I am {33}')
+print(f'My name is {{name}} and I am {age}')
 
 # nefunkcni
 # print(f"My name is {"Bob"} and I am {33}")
